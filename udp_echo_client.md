@@ -1,3 +1,4 @@
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -60,3 +61,4 @@ void error_handling(char *message)
 	fputc('\n', stderr);
 	exit(1);
 }
+```
